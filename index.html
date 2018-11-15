@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ING Direct</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <center>
+    <header>
+        <img src="/índice.png">
+    </header>
+    <table>
+    <main>
+        <h3 id="h3p">Datos personales</h3>
+        <td id=formulario>
+        <pre>
+        <p>Tratamiento:      Nombre*:                 Apellido 1*:              Apellido 2*: 
+<input type="radio" name="hm" value="h" required> Sr. <input type="radio" name="hm" value="m"> Sra. <input type="text" name="nombre" required placeholder="Escriba su nombre">  <input type="text" name="apellido1" required placeholder="Escriba su apellido">  <input type="text" name="apellido2" required placeholder="Escriba su apellido">
+     
+Tipo Documentacion:     Número de documento:    Fecha de nacimiento:
+<select name="menu" required>
+<option value="0">D.N.I</option>
+<option value="1">Tarj. Residencia/N.I.E</option>
+</select> <input type="number" name="numero" required>  <input type="date" name="fecha" required>
+Pais de nacimiento:  Nacionalidad:       Segunda nacionalidad: Pais residencia fiscal:
+<select name="pais de nacimiento">
+    <option value="">Seleccioná un pais</option>
+    <option value="ALM">Alemania</option> 
+    <option value="ESP" selected>España</option>  
+    <option value="ITA">Italia</option>  
+    <option value="ENG">Inglaterra</option>
+    <option value="USA">Estados Unidos</option>
+    <option value="FRA">Francia</option>                  
+      </select>  <select name="nacionalidad">
+        <option value="">Seleccioná un pais</option>
+        <option value="ALM">Alemania</option> 
+        <option value="ESP" selected>España</option>  
+        <option value="ITA">Italia</option>  
+        <option value="ENG">Inglaterra</option>
+        <option value="USA">Estados Unidos</option>  
+        <option value="FRA">Francia</option>                 
+          </select>  <select name="2nacionalidad">
+            <option value="">Seleccioná un pais</option>
+            <option value="ALM">Alemania</option> 
+            <option value="ESP" selected>España</option>  
+            <option value="ITA">Italia</option>  
+            <option value="ENG">Inglaterra</option>
+            <option value="USA">Estados Unidos</option>
+            <option value="FRA">Francia</option>                   
+              </select>  <select name="residencia fiscal">
+                    <option value="">Seleccioná un pais</option>
+                    <option value="ALM">Alemania</option> 
+                    <option value="ESP" selected>España</option>  
+                    <option value="ITA">Italia</option>  
+                    <option value="ENG">Inglaterra</option>
+                    <option value="USA">Estados Unidos</option>   
+                    <option value="FRA">Francia</option>                                         
+              </select>
+<input type="radio" name="radio" value="1">Tengo mas de una residencia fiscal
+Trabjo:                Tipo de actividad:    Sector profesional:   Empresa
+<select name="trabajo">
+        <option value="-">Selecione una opcion</option>
+        <option value="0">No trabaja</option>
+        <option value="1">Por cuenta ajena</option>
+        <option value="2">Por cuenta propia</option>
+      </select> <select name="Actividad">
+            <option value="-">Selecione una opcion</option>
+            <option value="0">Tareas de hogar</option>
+            <option value="1">Estudiante</option>
+            <option value="2">Desempleado</option>
+            <option value="3">Jubilado</option>
+            <option value="4">Pensionista</option>
+          </select> <select name="Sector">
+                <option value="-">Selecione una opcion</option>
+                <option value="0">No trabaja</option>
+                <option value="1">Banca</option>
+                <option value="2">Construcción</option>
+                <option value="3">Energia</option>
+                <option value="4">Industria</option>
+                <option value="5">Recursos humanos</option>
+                <option value="6">Servicios</option>
+            </select> <input type="text" name="empresa">
+Proposito de la cuenta: Origen de sus ahorros:
+<select name="proposito">
+        <option value="-">Selecione una opcion</option>
+        <option value="0">Domiciliar mi nomina</option>
+        <option value="1">Gestion de mi empresa</option>
+        <option value="2">Ahorro</option>
+        <option value="3">Fondos, planes, bolsa</option>
+        <option value="4">Obtener financiación</option>
+        <option value="5">Gestion de mi negocio</option>
+        <option value="6">Domiciliar recibos</option>
+        <option value="7">Realizar ingresos</option>
+    </select> <select name="OrigenAhorros">
+            <option value="-">Selecione una opcion</option>
+            <option value="0">Mi nomina</option>
+            <option value="1">Mi empresa o negocio</option>
+            <option value="2">Rentas inmobiliarias</option>
+            <option value="3">Rentas capital</option>
+            <option value="4">Prestacion Social</option>
+            <option value="5">Otros</option>
+            <option value="6">Prestamos</option>
+        </select>
+<div id="medio">
+Tipo de via:           Direccion:              Numero:                Piso:
+<select name="Via">
+        <option value="-">Selecione una opcion</option>
+        <option value="0">Calle</option>
+        <option value="1">Avenida</option>
+        <option value="2">Plaza</option>
+        <option value="3">Urbanizacion</option>
+        <option value="4">Travesia</option>
+        <option value="5">Otros</option>
+        <option value="6">Bulevar</option>
+</select> <input type="text" name="texto"> <select name="provincia">
+        <option value="">Selecione una opcion</option>
+        <option value="8">Barcelona</option>
+        <option value="12">Castellón</option>
+        <option value="14">Córdoba</option>
+        <option value="18">Granada</option>
+        <option value="28">Madrid</option>
+        <option value="30">Murcia</option>
+        <option value="31">Navarra</option>
+        <option value="37">Salamanca</option>
+        <option value="41">Sevilla</option>
+        <option value="44">Teruel</option>
+        <option value="46">Valencia</option>
+        <option value="50">Zaragoza</option>
+        </select> <input type="number" name="numero">
+Telefono movil:       Telefono particular:  Direccion de e-mail:
+<input type="number" name="numero"> <input type="number" name="numero"> <input type="text" name="texto">
+</div><hr><div>Para ofrecerle un mejor servicio nos seria util conocer si posee en otra entidad:
+<input type="radio" name="radio1" value="1">Plan de pensiones <input type="radio" name="radio2" value="2">Fondos<input type="radio" name="radio3" value="3">Acciones<input type="radio" name="radio4" value="4">OHipotecas<input type="radio" name="radio5" value="5">Prestamos<input type="radio" name="radio" value="6">Seguro de vida
+<div><hr>
+<p id="p2">Puede consultar en nuestra Web o solicitarnos toda la Información Precontractual de nuestros productos. Al pulsar "Continuar" está aceptando la Cláusula de Protección de datos. <a href="cuenta.html"><img src="/continuar.PNG" alt="ing" width="8%"></a>
+</p>
+</div>
+</p>
+        </pre>
+        </td>
+    </center>
+    </main>
+</table>
+</body>
+</html>
